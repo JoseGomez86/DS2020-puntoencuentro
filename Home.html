@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="es-ES">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    
+    <link rel="stylesheet" href="Home.CSS">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Home</title>
+  </head>
+  <body>
+    <div class="circulo"></div>
+    <nav class="navbar navbar-expand-md  barraNav">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#modalMiPerfil" data-toggle="modal" data-target="#modalMiPerfil">Mi Perfil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Modificaciones.html">Mis Equipos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Modificaciones.html">Mis Reservas</a>
+          </li>
+          <li class="nav-item">
+            <a class="fas fa-sign-out-alt fa-3x" href="Login.html"></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="fondoPagina"></div>
+
+    <div class="modal" id="modalMiPerfil" tabindex="-1" role="dialog" aria-labelledby="tituloVentana" aria-hidden="false">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 id="tituloVentana">Reestablecer password</h5>
+            <button type="button" class="close" id="btnCerrarX">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h6><strong>Ingrese su mail asociado a su cuenta para reeblecer su password</strong></h6>
+            <input type="text" id="reestablecerPass" placeholder="mail@mail.com" required>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-success" type="submit">Enviar</button>
+            <button type="button" class="btn btn-secondary" id="btnCerrar">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
+
