@@ -70,14 +70,26 @@ nav a{
     color: #FFFFFF;
 }
 
-  .Logo{
+.Logo{
     background: url("logoPE.png");
     background-size: cover;
     position: absolute;
+    top: 0%;
     left: 0px;
     width: 85px;
     height: 80px;
-  }
+}
+
+.LogoDerecha{
+    background: url("logoPE.png");
+    background-size: cover;
+    position: absolute;
+    top: 0%;
+    right: 0px;
+    width: 85px;
+    height: 80px;
+}
+
 .salir{
     size: 5px;
 }
