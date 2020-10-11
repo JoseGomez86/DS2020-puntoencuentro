@@ -5,7 +5,32 @@
 
 .fondoPagina{
     background: linear-gradient(201.24deg, rgba(201, 108, 56, 0.81) 17.35%, #D3E40E 101.37%);
-    height: 800px;
+    height: 100vh;
+    max-width: 100vw;
+}
+.fondoModal{
+    background: linear-gradient(201.24deg, rgba(201, 108, 56, 0.81) 17.35%, #D3E40E 101.37%);
+    height: 530px;
+    max-width: 100vw;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13.4px;
+    line-height: 20px;
+    letter-spacing: 0.3685px;
+    color: #4200FF;
+}
+
+.usuario{
+    background: url("User.png");
+    background-size: cover;
+    width: 140px;
+    height: 89px;
+    opacity: 1;
+    position: absolute;
+    top: 2px;
+    left: 330px;
+
 }
 
 .circulo{
@@ -15,7 +40,7 @@
     position: absolute;
     width: 788px;
     height: 804px;
-    left: 264px;
+    right: -30%;
     top: -374px;
     background: linear-gradient(45.37deg, #C96C38 8.28%, #FCFF58 65.61%);
 }
@@ -40,6 +65,7 @@ nav a{
     line-height: 27px;
     color: #FFFFFF;
 }
+
 
 .salir{
     size: 5px;
