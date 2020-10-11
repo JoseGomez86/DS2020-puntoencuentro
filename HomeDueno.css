@@ -23,7 +23,7 @@
     color: #4200FF;
 }
 .usuario{
-    background: url("images/User.png");
+    background: url("imagenes/User.png");
     background-size: cover;
     width: 140px;
     height: 89px;
@@ -116,7 +116,7 @@ nav a{
   .predio1_imagen {
     width: 173px;
     height: 76px;
-    background: url("images/Cancha.png");
+    background: url("imagenes/Cancha.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;

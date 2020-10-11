@@ -1,3 +1,9 @@
+* {
+    overflow-x: hidden;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
 .jumbotron {
     background-color:#22beee !important; 
     color: #ffffff;
