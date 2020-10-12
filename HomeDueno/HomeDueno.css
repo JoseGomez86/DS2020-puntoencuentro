@@ -34,7 +34,6 @@
 
 }
 
-
 .circulo{
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -86,8 +85,6 @@ nav a{
     display: flex; 
     justify-content: space-between; 
   }
-
-  
 
 /* PREDIOS DEL 1 AL 4 */
 
@@ -165,6 +162,7 @@ nav a{
     top: 373px;
     left: 160px;
     overflow: hidden;
+    border-radius: 0.25rem;
   }
   
   .predio1_btn-editar {
@@ -172,11 +170,8 @@ nav a{
     top: 373px;
     left: 272px;
     overflow: hidden;
+    border-radius: 0.25rem;
   }
-
-
-
-
 
 img{
   width: 173px;
@@ -203,14 +198,6 @@ img{
   width: 85px;
   height: 80px;
 }
-
-
-
-
-
-
-
-
 
 
 /* CONFIGURACION PARA LOS 8 BOTONES CANCELAR Y EDITAR */

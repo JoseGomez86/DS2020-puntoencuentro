@@ -32,17 +32,27 @@
     left: 330px;
 
 }
-
-.circulo{
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
+/*  */
+.medioCirculo{
+    border-radius: 0 0 0 100%;
     position: absolute;
-    width: 788px;
-    height: 804px;
-    right: -30%;
+    width: 888px;
+    height: 904px;
+    right: 0%;
     top: -374px;
     background: linear-gradient(45.37deg, #C96C38 8.28%, #FCFF58 65.61%);
+    overflow: hidden;
+}
+
+.medioCirculoChico{
+    border-radius: 0 0 0 100%;
+    position: absolute;
+    width: 688px;
+    height: 704px;
+    right: 0%;
+    top: -374px;
+    background: linear-gradient(45.37deg, #C96C38 8.28%, #FCFF58 65.61%);
+    overflow: hidden;
 }
  
 .barraNav
@@ -92,4 +102,8 @@ nav a{
 
 .salir{
     size: 5px;
+}
+
+.botones{
+    border-radius: 2em;
 }
