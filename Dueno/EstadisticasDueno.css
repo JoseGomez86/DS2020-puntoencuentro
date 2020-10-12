@@ -1,0 +1,287 @@
+/* BACKGROUND */
+.fondoPagina{
+    background: linear-gradient(201.24deg, rgba(201, 108, 56, 0.81) 17.35%, #D3E40E 101.37%);
+    height: 100vh;
+}
+
+.jumbotron {
+    background-color:#22beee !important; 
+    color: #ffffff;
+} 
+
+/* Modal */
+.fondoModal{
+    background: linear-gradient(201.24deg, rgba(201, 108, 56, 0.81) 17.35%, #D3E40E 101.37%);
+    height: 530px;
+    max-width: 100vw;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13.4px;
+    line-height: 20px;
+    letter-spacing: 0.3685px;
+    color: #4200FF;
+}
+.usuario{
+    background: url("imagenes/User.png");
+    background-size: cover;
+    width: 140px;
+    height: 89px;
+    opacity: 1;
+    position: absolute;
+    top: 2px;
+    left: 330px;
+}
+
+
+.circulo{
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    width: 788px;
+    height: 804px;
+    right: -30%;
+    top: -374px;
+    background: linear-gradient(45.37deg, #C96C38 8.28%, #FCFF58 65.61%);
+}
+ 
+/* BARRA NAVEGACION - MENU */
+.barraNav
+{
+    /* position: absolute; */
+    height: 93px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    border: 1px solid #0D1A10;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: #F2C94C;   
+    margin-bottom: 50px;
+}
+
+/* .barraNav1
+{
+    position: absolute;
+    height: 93px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    border: 1px solid #0D1A10;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background:rgba(211, 228, 14, 0.31);   
+    margin-bottom: 110px;
+} */
+
+nav a{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.navbar .navbar-nav li{
+    display: flex; 
+    justify-content: space-between; 
+  }
+
+  
+
+/* PREDIOS DEL 1 AL 4 */
+
+/* PREDIO 1 */
+.predio1a {
+    width: 384px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 220px;
+    left: 37px;
+    overflow: hidden;
+  }
+  .predio1b {
+    width: 340px;
+    height: 200px;
+    background: rgba(196,196,196,0.41999998688697815);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: 1px solid rgba(66,0,255,1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .predio1_imagen {
+    width: 173px;
+    height: 76px;
+    background: url("imagenes/Cancha.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 14px;
+    left: 21px;
+    border: 1px solid rgba(66,0,255,1);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    overflow: hidden;
+  }
+
+  .predio1-nombre {
+    width: 109px;
+    color: rgba(66,0,255,1);
+    position: absolute;
+    top: 20px;
+    left: 212px;
+    font-family: Open Sans;
+    font-weight: Bold;
+    font-size: 13px;
+    opacity: 1;
+    text-align: left;
+  }
+  .predio1-extra {
+    width: 150px;
+    color: rgba(66,0,255,1);
+    position: absolute;
+    top: 59px;
+    left: 233px;
+    font-family: Open Sans;
+    font-weight: Bold;
+    font-size: 13px;
+    opacity: 1;
+    text-align: left;
+  }
+
+/* BOTONES PREDIO 1 */
+  .predio1_btn-cancelar {
+    position: absolute;
+    top: 373px;
+    left: 160px;
+    overflow: hidden;
+  }
+  
+  .predio1_btn-editar {
+    position: absolute;
+    top: 373px;
+    left: 272px;
+    overflow: hidden;
+  }
+
+
+
+
+
+img{
+  width: 173px;
+  height: 76px;
+  margin-bottom: 10px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  /* position: absolute;
+  top: 14px;
+  left: 21px; */
+  border: 1px solid rgba(66,0,255,1);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  overflow: hidden;
+}
+
+.Logo{
+  background: url("imagenes/logoPE.png");
+  background-size: cover;
+  position: absolute;
+  top: 0%;
+  left: 0px;
+  width: 85px;
+  height: 80px;
+}
+
+.LogoDerecha{
+  background: url("imagenes/logoPE.png");
+  background-size: cover;
+  position: absolute;
+  top: 0%;
+  right: 0px;
+  width: 85px;
+  height: 80px;
+}
+
+
+h1{
+  /* font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 0px; */
+  color: #4200FF
+}
+
+.card{
+  background-color: #C4C4C4;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.8;
+  margin-bottom: 5px;
+  /* margin-left: 10px; */
+  border: 1px solid rgba(66,0,255,1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card1{
+  margin-left: 15px;
+}
+
+.card3{
+  margin-left: 15px;
+}
+
+footer{
+  margin-top: 10px;
+}
+
+
+/* CONFIGURACION PARA LOS 8 BOTONES CANCELAR Y EDITAR */
+
+.btn-cancelar { 
+    color: #FFFFFF; 
+    background-color: #D02A2A; 
+    border-color: #4200FF; 
+} 
+ 
+  .btn-cancelar:hover {
+    background-color: #5802C9;   
+}
+
+.btn-editar { 
+    color: #FFFFFF; 
+    background-color: #37F6F6; 
+    border-color: #4200FF; 
+} 
+ 
+  .btn-editar:hover{
+    background-color: #5802C9;   
+}
+
+.btn-agregar-predio { 
+  color: #FFFFFF; 
+  background-color: #06CC49; 
+  border-color: #4200FF; 
+} 
+
+.btn-agregar-predio:hover{
+  background-color: #5802C9;   
+}
+
+/* Harcodeando  */
