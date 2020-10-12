@@ -18,7 +18,8 @@
         <?php include("nav.php") ?>
         </div>
         <?php include("header.php") ?>
-
+        
+        <div>Punto Encuentro</div>
 
         <?php include("footer.php")?>  
 

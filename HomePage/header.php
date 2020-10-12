@@ -9,9 +9,9 @@
             <img src="imagenes/pfutbol.png" class="fotfutbol logo" alt=""> 
             <!--<img src="imagenes/pbasquet.png" class="img-fluid logo" alt="logo">-->
            
-            <!-- <h1 class="ftitulo">Punto Encuentro</h1> 
+            <h1 class="ftitulo">Punto Encuentro</h1> 
             <span class="ftitulo1">Punto</span>
-            <span class="ftitulo2">Encuentro</span>-->
+            <span class="ftitulo2">Encuentro</span>
             <div>
                 <span class="ftitulo3">Busca tu cancha al instante </span>
                 <img src="imagenes/fcancha.png" class="fcancha logo" alt="logo" width="600" height="400">
